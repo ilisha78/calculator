@@ -11,6 +11,10 @@
     justify-content: center;
     align-items: center;
     font-family: fantasy;
+    background-color: rgb(232, 160, 184);
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px;
 }
 .row{
     margin: 3px;
@@ -27,6 +31,10 @@ html,body{
     font-size: 20px;
     border-radius: 9px;
     cursor: pointer;
+    background-color: rgb(207, 207, 233)
+}
+.button:hover{
+    background-color: rgb(159, 159, 249);
 }
 .input{
     padding: 15px 2px;
