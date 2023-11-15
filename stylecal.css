@@ -1,0 +1,44 @@
+.text{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50;
+    font-family: cursive;
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: fantasy;
+}
+.row{
+    margin: 3px;
+    padding: 7px;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.button{
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    font-size: 20px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.input{
+    padding: 15px 2px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-size: 20px;
+    text-align: right;
+}
+.ac{
+    padding: 20px 12px;
+}
+.c{
+    padding: 20px 18px;
+}
